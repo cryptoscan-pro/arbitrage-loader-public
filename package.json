@@ -1,0 +1,54 @@
+{
+  "name": "arbitrage-loader-cryptoscan",
+  "version": "1.0.0",
+  "description": "A real-time cryptocurrency arbitrage detection system that monitors price differences between various exchanges (CEX and DEX) and identifies profitable trading opportunities.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "bun start",
+    "dev": "bun dev",
+    "build": "bun build",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "keywords": [
+    "arbitrage",
+    "cryptocurrency",
+    "cex",
+    "dex",
+    "loader",
+    "spread",
+    "realtime",
+    "websocket",
+    "bun",
+    "api"
+  ],
+  "author": "Cryptoscan Team",
+  "license": "ISC",
+  "homepage": "https://t.me/dan_cryptoscan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cryptoscan-pro/arbitrage-loader-public"
+  },
+  "bugs": {
+    "url": "https://github.com/cryptoscan-pro/arbitrage-loader-public/issues"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.0",
+    "dotenv": "^16.3.1",
+    "hono": "^3.1.0",
+    "ws": "^8.13.0",
+    "@javeoff/ws-reconnect": "^1.2.0",
+    "cryptoscan-provider": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "bun-types": "^0.5.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "bun": ">=0.6.0"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://t.me/dan_cryptoscan"
+  }
+}
