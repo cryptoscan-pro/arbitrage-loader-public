@@ -1,6 +1,6 @@
 # Arbitrage Loader - Cryptoscan
 
-A real-time cryptocurrency arbitrage detection system that monitors price differences between various exchanges (CEX and DEX) and identifies profitable trading opportunities
+A real-time cryptocurrency arbitrage detection system that monitors price differences between various exchanges (CEX and DEX) and identifies profitable trading opportunities.
 
 **Contacts**: https://t.me/dan_cryptoscan
 
